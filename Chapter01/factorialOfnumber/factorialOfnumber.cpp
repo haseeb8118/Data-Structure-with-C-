@@ -1,3 +1,4 @@
+// Factorial of a number
 #include <iostream>
 using namespace std;
 
@@ -6,7 +7,7 @@ int main(){
     cout << "Enter any number: ";
     cin >> number;
 
-    while(count < number){
+    while(count <= number){
         product = product * count;
         count += 1;
     }
